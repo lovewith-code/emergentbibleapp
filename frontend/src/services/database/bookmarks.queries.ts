@@ -1,7 +1,7 @@
 import { getDatabase, Result } from './index';
-import { Bookmark } from '@/../types/reading.types';
-import { generateId } from '@/../utils/idGenerator';
-import { logger } from '@/../utils/logger';
+import { Bookmark } from '@/types/reading.types';
+import { generateId } from '@/utils/idGenerator';
+import { logger } from '@/utils/logger';
 
 export const getAllBookmarks = async (): Promise<Result<Bookmark[]>> => {
   try {

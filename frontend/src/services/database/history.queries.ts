@@ -1,7 +1,7 @@
 import { getDatabase, Result } from './index';
-import { ReadingHistory } from '@/../types/reading.types';
-import { logger } from '@/../utils/logger';
-import { HISTORY_MAX_RECORDS } from '@/../constants/config';
+import { ReadingHistory } from '@/types/reading.types';
+import { logger } from '@/utils/logger';
+import { HISTORY_MAX_RECORDS } from '@/constants/config';
 
 export const recordVisit = async (
   bookId: number,

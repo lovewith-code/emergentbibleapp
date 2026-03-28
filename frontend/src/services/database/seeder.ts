@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getDatabase, Result } from './index';
-import { logger } from '@/../utils/logger';
-import { DB_SEED_CHUNK_SIZE } from '@/../constants/config';
+import { logger } from '@/utils/logger';
+import { DB_SEED_CHUNK_SIZE } from '@/constants/config';
 
 interface BibleVerse {
   Verseid: string;

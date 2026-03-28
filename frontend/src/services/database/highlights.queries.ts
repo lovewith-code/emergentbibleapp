@@ -1,7 +1,7 @@
 import { getDatabase, Result } from './index';
-import { Highlight } from '@/../types/reading.types';
-import { generateId } from '@/../utils/idGenerator';
-import { logger } from '@/../utils/logger';
+import { Highlight } from '@/types/reading.types';
+import { generateId } from '@/utils/idGenerator';
+import { logger } from '@/utils/logger';
 
 export const getAllHighlights = async (): Promise<Result<Highlight[]>> => {
   try {

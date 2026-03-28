@@ -1,7 +1,7 @@
 import { getDatabase, Result } from './index';
-import { Verse } from '@/../types/bible.types';
-import { logger } from '@/../utils/logger';
-import { SEARCH_MIN_CHARS } from '@/../constants/config';
+import { Verse } from '@/types/bible.types';
+import { logger } from '@/utils/logger';
+import { SEARCH_MIN_CHARS } from '@/constants/config';
 
 export const getVersesByChapter = async (
   bookId: number,

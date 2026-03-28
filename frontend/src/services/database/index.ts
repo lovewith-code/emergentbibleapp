@@ -1,6 +1,6 @@
 import * as SQLite from 'expo-sqlite';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { logger } from '@/../utils/logger';
+import { logger } from '@/utils/logger';
 
 export type Result<T> = 
   | { data: T; error: null }

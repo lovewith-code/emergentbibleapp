@@ -1,7 +1,7 @@
 import { getDatabase, Result } from './index';
-import { Favorite } from '@/../types/reading.types';
-import { generateId } from '@/../utils/idGenerator';
-import { logger } from '@/../utils/logger';
+import { Favorite } from '@/types/reading.types';
+import { generateId } from '@/utils/idGenerator';
+import { logger } from '@/utils/logger';
 
 export const getAllFavorites = async (): Promise<Result<Favorite[]>> => {
   try {
