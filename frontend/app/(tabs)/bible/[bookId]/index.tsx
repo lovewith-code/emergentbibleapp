@@ -45,7 +45,7 @@ export default function BookDetailScreen() {
               key={chapter}
               style={styles.chapterButton}
               onPress={() =>
-                router.push(`/(tabs)/bible/[bookId]/[chapter]?bookId=${bookId}&chapter=${chapter}`)
+                router.push({ pathname: '/(tabs)/bible/[bookId]/[chapter]', params: { bookId: String(bookId), chapter: String(chapter) } })
               }
             >
               <Text style={styles.chapterNumber}>{chapter}</Text>

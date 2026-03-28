@@ -23,6 +23,110 @@
             {
               "Verseid": "01001005",
               "Verse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
+            },
+            {
+              "Verseid": "01001006",
+              "Verse": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters."
+            },
+            {
+              "Verseid": "01001007",
+              "Verse": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so."
+            },
+            {
+              "Verseid": "01001008",
+              "Verse": "And God called the firmament Heaven. And the evening and the morning were the second day."
+            },
+            {
+              "Verseid": "01001009",
+              "Verse": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so."
+            },
+            {
+              "Verseid": "01001010",
+              "Verse": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "01002001",
+              "Verse": "Thus the heavens and the earth were finished, and all the host of them."
+            },
+            {
+              "Verseid": "01002002",
+              "Verse": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made."
+            },
+            {
+              "Verseid": "01002003",
+              "Verse": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made."
+            },
+            {
+              "Verseid": "01002004",
+              "Verse": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens."
+            },
+            {
+              "Verseid": "01002005",
+              "Verse": "And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "19001001",
+              "Verse": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful."
+            },
+            {
+              "Verseid": "19001002",
+              "Verse": "But his delight is in the law of the LORD; and in his law doth he meditate day and night."
+            },
+            {
+              "Verseid": "19001003",
+              "Verse": "And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper."
+            },
+            {
+              "Verseid": "19001004",
+              "Verse": "The ungodly are not so: but are like the chaff which the wind driveth away."
+            },
+            {
+              "Verseid": "19001005",
+              "Verse": "Therefore the ungodly shall not stand in the judgment, nor sinners in the congregation of the righteous."
+            },
+            {
+              "Verseid": "19001006",
+              "Verse": "For the LORD knoweth the way of the righteous: but the way of the ungodly shall perish."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "19023001",
+              "Verse": "The LORD is my shepherd; I shall not want."
+            },
+            {
+              "Verseid": "19023002",
+              "Verse": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
+            },
+            {
+              "Verseid": "19023003",
+              "Verse": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
+            },
+            {
+              "Verseid": "19023004",
+              "Verse": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+            },
+            {
+              "Verseid": "19023005",
+              "Verse": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over."
+            },
+            {
+              "Verseid": "19023006",
+              "Verse": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever."
             }
           ]
         }

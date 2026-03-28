@@ -28,7 +28,7 @@ export default function BibleScreen() {
     <TouchableOpacity
       key={book.id}
       style={styles.bookCard}
-      onPress={() => router.push(`/(tabs)/bible/[bookId]?bookId=${book.id}`)}
+      onPress={() => router.push({ pathname: '/(tabs)/bible/[bookId]', params: { bookId: String(book.id) } })}
     >
       <View style={styles.bookLeft}>
         <View

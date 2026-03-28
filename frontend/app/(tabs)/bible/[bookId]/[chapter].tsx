@@ -56,9 +56,7 @@ export default function ChapterReaderScreen() {
     } else if (bookId > 1) {
       const prevBook = getBookById(bookId - 1);
       if (prevBook) {
-        router.push(
-          `/(tabs)/bible/[bookId]/[chapter]?bookId=${bookId - 1}&chapter=${prevBook.chapters}`
-        );
+        router.push({ pathname: '/(tabs)/bible/[bookId]/[chapter]', params: { bookId: String(bookId - 1), chapter: String(prevBook.chapters) } });
       }
     }
   };
@@ -67,7 +65,7 @@ export default function ChapterReaderScreen() {
     if (chapter < (book?.chapters || 1)) {
       router.setParams({ chapter: (chapter + 1).toString() });
     } else if (bookId < 66) {
-      router.push(`/(tabs)/bible/[bookId]/[chapter]?bookId=${bookId + 1}&chapter=1`);
+      router.push({ pathname: '/(tabs)/bible/[bookId]/[chapter]', params: { bookId: String(bookId + 1), chapter: '1' } });
     }
   };
 
