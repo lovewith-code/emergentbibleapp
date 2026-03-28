@@ -25,6 +25,7 @@ export default function TabsLayout() {
         name="home/index"
         options={{
           title: 'Home',
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home" size={size} color={color} />
           ),
@@ -34,6 +35,7 @@ export default function TabsLayout() {
         name="bible/index"
         options={{
           title: 'Bible',
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="book" size={size} color={color} />
           ),
@@ -43,6 +45,7 @@ export default function TabsLayout() {
         name="search/index"
         options={{
           title: 'Search',
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="search" size={size} color={color} />
           ),
@@ -52,10 +55,20 @@ export default function TabsLayout() {
         name="settings/index"
         options={{
           title: 'Settings',
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="settings" size={size} color={color} />
           ),
         }}
+      />
+      {/* Hide nested dynamic routes from tab bar */}
+      <Tabs.Screen
+        name="bible/[bookId]/index"
+        options={{ href: null }}
+      />
+      <Tabs.Screen
+        name="bible/[bookId]/[chapter]"
+        options={{ href: null }}
       />
     </Tabs>
   );

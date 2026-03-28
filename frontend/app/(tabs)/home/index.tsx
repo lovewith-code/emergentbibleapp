@@ -1,64 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  TouchableOpacity,
-  ActivityIndicator,
-} from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import { DARK, FONT, SPACE, RADIUS, SHADOW } from '@/constants/theme';
-import { useAppStore } from '@/store/useAppStore';
+import { DARK, FONT, SPACE, RADIUS } from '@/constants/theme';
 import { useBibleStore } from '@/store/useBibleStore';
 import { getBookById } from '@/data/bibleMetadata';
-import { getVerse } from '@/services/bibleService';
-import { getDailySeed } from '@/utils/dateHelpers';
-import { LinearGradient } from 'expo-linear-gradient';
 
 export default function HomeScreen() {
   const router = useRouter();
-  const { user, isGuest, preferredLanguage } = useAppStore();
   const { currentBookId, currentChapter } = useBibleStore();
-  const [dailyVerse, setDailyVerse] = useState<any>(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    loadDailyVerse();
-  }, []);
-
-  const loadDailyVerse = async () => {
-    try {
-      // Use hardcoded demo verse for now
-      const book = getBookById(1);
-      setDailyVerse({
-        id: 1,
-        bookId: 1,
-        chapter: 1,
-        verse: 1,
-        textEng: 'In the beginning God created the heaven and the earth.',
-        textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
-        bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
-      });
-    } catch (error) {
-      console.error('Error loading daily verse:', error);
-      // Even on error, show demo verse
-      const book = getBookById(1);
-      setDailyVerse({
-        id: 1,
-        bookId: 1,
-        chapter: 1,
-        verse: 1,
-        textEng: 'In the beginning God created the heaven and the earth.',
-        textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
-        bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
-      });
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   const getGreeting = () => {
     const hour = new Date().getHours();
@@ -67,11 +18,7 @@ export default function HomeScreen() {
     return 'Good evening';
   };
 
-  const getName = () => {
-    if (user) return user.name.split(' ')[0];
-    if (isGuest) return 'Guest';
-    return 'Reader';
-  };
+  const currentBook = getBookById(currentBookId);
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -79,55 +26,45 @@ export default function HomeScreen() {
         {/* Header */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.greeting}>{getGreeting()} 👋</Text>
-            <Text style={styles.name}>{getName()}</Text>
+            <Text style={styles.greeting}>{getGreeting()}</Text>
+            <Text style={styles.appTitle}>HolyBook</Text>
+            <Text style={styles.appSubtitle}>పవిత్ర గ్రంథం</Text>
           </View>
-          <TouchableOpacity
-            onPress={() => router.push('/settings')}
-            style={styles.settingsButton}
-          >
-            <Ionicons name="settings-outline" size={24} color={DARK.textSecondary} />
-          </TouchableOpacity>
         </View>
 
         {/* Daily Verse Card */}
-        {isLoading ? (
-          <View style={styles.loadingCard}>
-            <ActivityIndicator size="large" color={DARK.gold} />
-          </View>
-        ) : dailyVerse ? (
-          <LinearGradient
-            colors={['#1C1505', '#2A1F08']}
-            style={styles.dailyVerseCard}
-          >
-            <Text style={styles.dailyVerseLabel}>TODAY'S VERSE</Text>
-            <Text style={styles.verseText}>
-              {preferredLanguage === 'english'
-                ? dailyVerse.textEng
-                : preferredLanguage === 'telugu'
-                ? dailyVerse.textTel
-                : dailyVerse.textTel}
-            </Text>
-            <Text style={styles.verseReference}>
-              {dailyVerse.bookName} {dailyVerse.chapter}:{dailyVerse.verse}
-            </Text>
-          </LinearGradient>
-        ) : null}
+        <View style={styles.dailyVerseCard}>
+          <Text style={styles.dailyVerseLabel}>TODAY'S VERSE</Text>
+          <Text style={styles.verseText}>
+            ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.
+          </Text>
+          <Text style={styles.verseTextEng}>
+            In the beginning God created the heaven and the earth.
+          </Text>
+          <Text style={styles.verseReference}>Genesis 1:1</Text>
+        </View>
 
         {/* Continue Reading */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Continue Reading</Text>
           <TouchableOpacity
             style={styles.continueCard}
-            onPress={() => router.push(`/bible/[bookId]/[chapter]?bookId=${currentBookId}&chapter=${currentChapter}`)}
+            onPress={() =>
+              router.push({
+                pathname: '/(tabs)/bible/[bookId]',
+                params: { bookId: String(currentBookId) },
+              })
+            }
           >
             <View style={styles.continueContent}>
               <Ionicons name="book-outline" size={32} color={DARK.gold} />
               <View style={styles.continueText}>
                 <Text style={styles.continueTitle}>
-                  {getBookById(currentBookId)?.nameEnglish}
+                  {currentBook?.nameEnglish || 'Genesis'}
                 </Text>
-                <Text style={styles.continueSubtitle}>Chapter {currentChapter}</Text>
+                <Text style={styles.continueSubtitle}>
+                  Chapter {currentChapter}
+                </Text>
               </View>
             </View>
             <Ionicons name="chevron-forward" size={24} color={DARK.textMuted} />
@@ -140,34 +77,53 @@ export default function HomeScreen() {
           <View style={styles.quickGrid}>
             <TouchableOpacity
               style={[styles.quickCard, { backgroundColor: 'rgba(232,112,64,0.15)' }]}
-              onPress={() => router.push('/bible?bookId=19')}
+              onPress={() =>
+                router.push({
+                  pathname: '/(tabs)/bible/[bookId]',
+                  params: { bookId: '19' },
+                })
+              }
             >
               <Ionicons name="musical-notes" size={28} color="#E87040" />
               <Text style={styles.quickLabel}>Psalms</Text>
+              <Text style={styles.quickLabelTelugu}>కీర్తనలు</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
               style={[styles.quickCard, { backgroundColor: 'rgba(232,112,64,0.15)' }]}
-              onPress={() => router.push('/bible?bookId=20')}
+              onPress={() =>
+                router.push({
+                  pathname: '/(tabs)/bible/[bookId]',
+                  params: { bookId: '20' },
+                })
+              }
             >
               <Ionicons name="bulb" size={28} color="#E87040" />
               <Text style={styles.quickLabel}>Proverbs</Text>
+              <Text style={styles.quickLabelTelugu}>సామెతలు</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
               style={[styles.quickCard, { backgroundColor: 'rgba(34,197,94,0.15)' }]}
-              onPress={() => router.push('/bible?bookId=40')}
+              onPress={() =>
+                router.push({
+                  pathname: '/(tabs)/bible/[bookId]',
+                  params: { bookId: '40' },
+                })
+              }
             >
               <Ionicons name="book" size={28} color="#22C55E" />
               <Text style={styles.quickLabel}>Matthew</Text>
+              <Text style={styles.quickLabelTelugu}>మత్తయి</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
               style={[styles.quickCard, { backgroundColor: 'rgba(201,168,76,0.15)' }]}
-              onPress={() => router.push('/search')}
+              onPress={() => router.push('/(tabs)/search')}
             >
               <Ionicons name="search" size={28} color={DARK.gold} />
               <Text style={styles.quickLabel}>Search</Text>
+              <Text style={styles.quickLabelTelugu}>వెతకండి</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -185,9 +141,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
     paddingHorizontal: SPACE.lg,
     paddingTop: SPACE.lg,
     paddingBottom: SPACE.xl,
@@ -197,23 +150,16 @@ const styles = StyleSheet.create({
     color: DARK.textSecondary,
     fontWeight: FONT.weight.regular,
   },
-  name: {
-    fontSize: FONT.size.xl,
-    color: DARK.textPrimary,
+  appTitle: {
+    fontSize: FONT.size.xxl,
+    color: DARK.gold,
     fontWeight: FONT.weight.bold,
     marginTop: SPACE.xs,
   },
-  settingsButton: {
-    padding: SPACE.sm,
-  },
-  loadingCard: {
-    marginHorizontal: SPACE.lg,
-    marginBottom: SPACE.xl,
-    padding: SPACE.xxxl,
-    borderRadius: RADIUS.lg,
-    backgroundColor: DARK.card,
-    alignItems: 'center',
-    justifyContent: 'center',
+  appSubtitle: {
+    fontSize: FONT.size.md,
+    color: DARK.textSecondary,
+    marginTop: 2,
   },
   dailyVerseCard: {
     marginHorizontal: SPACE.lg,
@@ -222,7 +168,7 @@ const styles = StyleSheet.create({
     borderRadius: RADIUS.lg,
     borderWidth: 1,
     borderColor: DARK.borderGold,
-    ...SHADOW.gold,
+    backgroundColor: '#1C1505',
   },
   dailyVerseLabel: {
     fontSize: FONT.size.xs,
@@ -235,7 +181,14 @@ const styles = StyleSheet.create({
     fontSize: FONT.size.lg,
     color: DARK.textPrimary,
     lineHeight: FONT.size.lg * FONT.lineHeight.relaxed,
+    marginBottom: SPACE.sm,
+  },
+  verseTextEng: {
+    fontSize: FONT.size.base,
+    color: DARK.textSecondary,
+    lineHeight: FONT.size.base * FONT.lineHeight.relaxed,
     marginBottom: SPACE.lg,
+    fontStyle: 'italic',
   },
   verseReference: {
     fontSize: FONT.size.base,
@@ -288,9 +241,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: SPACE.lg - SPACE.sm,
   },
   quickCard: {
-    width: '48%',
+    width: '46%',
+    margin: '2%',
     aspectRatio: 1.2,
-    margin: SPACE.sm,
     padding: SPACE.lg,
     borderRadius: RADIUS.md,
     alignItems: 'center',
@@ -301,6 +254,12 @@ const styles = StyleSheet.create({
     color: DARK.textPrimary,
     fontWeight: FONT.weight.semiBold,
     marginTop: SPACE.sm,
+    textAlign: 'center',
+  },
+  quickLabelTelugu: {
+    fontSize: FONT.size.sm,
+    color: DARK.textSecondary,
+    marginTop: 2,
     textAlign: 'center',
   },
 });
