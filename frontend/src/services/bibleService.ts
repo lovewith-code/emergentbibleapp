@@ -1,7 +1,18 @@
 // Service to read Bible data directly from JSON files
-import teluguBible from '../../assets/data/sample_bible_tel.json';
-import englishBible from '../../assets/data/sample_bible_eng.json';
 import { Verse } from '@/types/bible.types';
+
+// Import JSON files
+let teluguBible: any;
+let englishBible: any;
+
+try {
+  teluguBible = require('../../assets/data/sample_bible_tel.json');
+  englishBible = require('../../assets/data/sample_bible_eng.json');
+} catch (error) {
+  console.error('Error loading Bible JSON files:', error);
+  teluguBible = { Book: [] };
+  englishBible = { Book: [] };
+}
 
 export type Result<T> = 
   | { data: T; error: null }
