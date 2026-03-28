@@ -1,0 +1,32 @@
+{
+  "Book": [
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "01001001",
+              "Verse": "In the beginning God created the heaven and the earth."
+            },
+            {
+              "Verseid": "01001002",
+              "Verse": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+            },
+            {
+              "Verseid": "01001003",
+              "Verse": "And God said, Let there be light: and there was light."
+            },
+            {
+              "Verseid": "01001004",
+              "Verse": "And God saw the light, that it was good: and God divided the light from the darkness."
+            },
+            {
+              "Verseid": "01001005",
+              "Verse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
