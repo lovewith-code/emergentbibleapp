@@ -31,35 +31,20 @@ export default function HomeScreen() {
 
   const loadDailyVerse = async () => {
     try {
-      // Simple daily verse logic: use day of year to pick a verse
-      const seed = getDailySeed();
-      const bookId = 1; // Genesis for demo
-      const chapter = 1;
-      const verse = 1;
-
-      const result = await getVerse(bookId, chapter, verse);
-      if (result.data) {
-        const book = getBookById(bookId);
-        setDailyVerse({
-          ...result.data,
-          bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
-        });
-      } else {
-        // Fallback to demo verse if database is empty
-        const book = getBookById(1);
-        setDailyVerse({
-          id: 1,
-          bookId: 1,
-          chapter: 1,
-          verse: 1,
-          textEng: 'In the beginning God created the heaven and the earth.',
-          textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
-          bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
-        });
-      }
+      // Use hardcoded demo verse for now
+      const book = getBookById(1);
+      setDailyVerse({
+        id: 1,
+        bookId: 1,
+        chapter: 1,
+        verse: 1,
+        textEng: 'In the beginning God created the heaven and the earth.',
+        textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
+        bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
+      });
     } catch (error) {
       console.error('Error loading daily verse:', error);
-      // Show demo verse even on error
+      // Even on error, show demo verse
       const book = getBookById(1);
       setDailyVerse({
         id: 1,
