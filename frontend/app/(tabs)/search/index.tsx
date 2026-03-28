@@ -12,7 +12,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { DARK, FONT, SPACE, RADIUS } from '@/constants/theme';
-import { searchVerses } from '@/services/database/verses.queries';
+import { searchVerses } from '@/services/bibleService';
 import { getBookById } from '@/data/bibleMetadata';
 import { Verse } from '@/types/bible.types';
 import { truncate } from '@/utils/textHelpers';

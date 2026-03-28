@@ -12,7 +12,7 @@ import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { DARK, FONT, SPACE, RADIUS, VERSE_FONT_SIZE } from '@/constants/theme';
 import { getBookById } from '@/data/bibleMetadata';
-import { getVersesByChapter } from '@/services/database/verses.queries';
+import { getVersesByChapter } from '@/services/bibleService';
 import { Verse } from '@/types/bible.types';
 import { useAppStore } from '@/store/useAppStore';
 import { useBibleStore } from '@/store/useBibleStore';

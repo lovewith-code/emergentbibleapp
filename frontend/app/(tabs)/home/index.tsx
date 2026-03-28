@@ -14,7 +14,7 @@ import { DARK, FONT, SPACE, RADIUS, SHADOW } from '@/constants/theme';
 import { useAppStore } from '@/store/useAppStore';
 import { useBibleStore } from '@/store/useBibleStore';
 import { getBookById } from '@/data/bibleMetadata';
-import { getVerse } from '@/services/database/verses.queries';
+import { getVerse } from '@/services/bibleService';
 import { getDailySeed } from '@/utils/dateHelpers';
 import { LinearGradient } from 'expo-linear-gradient';
 
