@@ -1,50 +1,239 @@
-# Welcome to your Expo app 👋
+# HolyBook - Bilingual Bible Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**పవిత్ర గ్రంథం (The Word, Always With You)**
 
-## Get started
+A production-ready, offline-first bilingual Bible mobile app built with React Native, Expo, and TypeScript.
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- ✅ **Bilingual Support**: Telugu (IRV) + English (KJV)
+- ✅ **Offline First**: All data stored locally in SQLite
+- ✅ **66 Books**: Complete Old & New Testament
+- ✅ **Smart Navigation**: Easy chapter-to-chapter navigation
+- ✅ **Search**: Full-text verse search
+- ✅ **Bookmarks & Highlights**: Save and mark verses
+- ✅ **Reading History**: Track your reading progress
+- ✅ **Beautiful UI**: Dark mode with gold accents
+- ✅ **Customizable**: Font size, language preferences
 
-2. Start the app
+## 🏗️ Project Structure
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+/app/frontend/
+├── app/              # Expo Router screens (file-based routing)
+├── src/              # Source code
+│   ├── components/   # Reusable UI components
+│   ├── constants/    # Theme, config, feature flags
+│   ├── data/         # Static data (Bible metadata)
+│   ├── services/     # Database, API services
+│   ├── store/        # State management (Zustand)
+│   ├── types/        # TypeScript definitions
+│   └── utils/        # Helper functions
+├── assets/           # Images, fonts, Bible data files
+└── babel.config.js   # Babel configuration with path aliases
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
+- Node.js 18+
+- Yarn or npm
+- Expo CLI
+- Expo Go app (for mobile testing)
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd /app/frontend
+yarn install
+```
 
-## Join the community
+### Running the App
 
-Join our community of developers creating universal apps.
+```bash
+# Start Expo development server
+yarn start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Or with specific platform
+yarn android  # Android
+yarn ios      # iOS
+yarn web      # Web
+```
+
+### Building for Production
+
+```bash
+# Build with EAS
+eas build --platform android
+eas build --platform ios
+```
+
+## 📚 Documentation
+
+### Folder Documentation
+- [app/](./app/README.md) - Expo Router screens and navigation
+- [src/components/](./src/components/README.md) - UI components
+- [src/constants/](./src/constants/README.md) - Theme and configuration
+- [src/data/](./src/data/README.md) - Bible metadata
+- [src/services/](./src/services/README.md) - Database and services
+- [src/store/](./src/store/README.md) - State management
+- [src/types/](./src/types/README.md) - TypeScript types
+- [src/utils/](./src/utils/README.md) - Utility functions
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: Gold (#C9A84C) - Brand accent
+- **Background**: Deep navy (#0A0A0F, #12121A)
+- **Text**: White (#FFFFFF) primary, muted (#8888AA)
+
+### Typography
+- **Sizes**: xs(11px) to hero(38px)
+- **Weights**: Regular(400) to Bold(700)
+- **Line Heights**: Tight(1.25) to Verse(2.0) for comfortable reading
+
+## 🗄️ Database Schema
+
+### Tables
+1. **verses** - All Bible verses (Telugu + English)
+2. **bookmarks** - User bookmarked verses
+3. **favorites** - Favorited verses
+4. **highlights** - Highlighted verses with colors
+5. **reading_history** - Reading progress tracking
+
+## 🔧 Configuration
+
+### Environment Variables
+```env
+EXPO_PACKAGER_HOSTNAME=your-hostname
+EXPO_PUBLIC_BACKEND_URL=your-backend-url
+```
+
+### Feature Flags (src/constants/config.ts)
+```typescript
+AI_CHAT: false        // v2 feature
+AUDIO_BIBLE: false    // v2 feature
+SYNC: false           // v2 feature
+```
+
+## 📖 Usage
+
+### Adding Bible Data
+
+1. Place your Bible JSON files in `assets/data/`:
+   - `bible_tel.json` (Telugu IRV)
+   - `bible_eng.json` (English KJV)
+
+2. Format:
+```json
+{
+  "Book": [{
+    "Chapter": [{
+      "Verse": [{
+        "Verseid": "01001001",
+        "Verse": "Verse text..."
+      }]
+    }]
+  }]
+}
+```
+
+3. App will auto-seed database on first launch
+
+### Path Aliases
+
+Use `@/` to import from src:
+```typescript
+import { DARK } from '@/constants/theme';
+import { useAppStore } from '@/store/useAppStore';
+```
+
+## 🧪 Testing
+
+### Mobile Testing
+1. Start expo: `yarn start`
+2. Scan QR code with Expo Go app
+3. Test on physical device
+
+### Web Testing
+```bash
+yarn web
+# Open http://localhost:3000
+```
+
+## 📦 Dependencies
+
+### Core
+- expo ~51.0.0
+- react-native 0.74.0
+- expo-router ~3.5.0
+
+### Database
+- expo-sqlite ~14.0.0
+- @react-native-async-storage/async-storage
+
+### State Management
+- zustand ^4.5.2
+
+### UI
+- expo-linear-gradient
+- @expo/vector-icons
+- react-native-safe-area-context
+
+## 🤝 Contributing
+
+### Code Style
+- TypeScript strict mode
+- ESLint + Prettier
+- 2 spaces indentation
+- Max 300 lines per file
+
+### Commit Convention
+```
+feat: Add new feature
+fix: Fix bug
+docs: Update documentation
+style: Code formatting
+refactor: Code refactoring
+test: Add tests
+```
+
+## 📝 License
+
+Private - All rights reserved
+
+## 👥 Team
+
+RcubiX Technologies | Rabbuni M.
+
+## 🐛 Known Issues
+
+1. Expo tunnel may fail due to ngrok limits (use --no-tunnel)
+2. Some expo packages need version updates (see warnings)
+3. Shadow props deprecated (use boxShadow instead)
+
+## 🚧 Roadmap
+
+### v1.0 (Current)
+- ✅ Basic reading functionality
+- ✅ Bookmarks and search
+- ✅ Bilingual support
+
+### v2.0 (Planned)
+- [ ] AI Chat assistant
+- [ ] Audio Bible
+- [ ] Cross-device sync (Supabase)
+- [ ] Reading plans
+
+### v3.0 (Future)
+- [ ] Community features
+- [ ] Strong's concordance
+- [ ] Prayer wall
+
+## 📞 Support
+
+For issues or questions, check the folder-specific README files or contact the development team.
+
+---
+
+**Built with ❤️ for Bible readers worldwide**

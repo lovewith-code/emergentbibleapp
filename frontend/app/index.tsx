@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import { Redirect } from 'expo-router';
-import { DARK } from '../src/constants/theme';
-import { useAppStore } from '../src/store/useAppStore';
-import { initDatabase, isDbSeeded } from '../src/services/database';
-import { logger } from '../src/utils/logger';
+import { DARK } from '@/constants/theme';
+import { useAppStore } from '@/store/useAppStore';
+import { initDatabase, isDbSeeded } from '@/services/database';
+import { logger } from '@/utils/logger';
 
 export default function Index() {
   const [isLoading, setIsLoading] = useState(true);

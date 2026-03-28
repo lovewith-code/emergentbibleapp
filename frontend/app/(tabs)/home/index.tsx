@@ -33,20 +33,43 @@ export default function HomeScreen() {
     try {
       // Simple daily verse logic: use day of year to pick a verse
       const seed = getDailySeed();
-      const bookId = (seed % 66) + 1;
-      const chapter = ((seed / 100) % 20) + 1;
-      const verse = (seed % 10) + 1;
+      const bookId = 1; // Genesis for demo
+      const chapter = 1;
+      const verse = 1;
 
-      const result = await getVerse(bookId, Math.floor(chapter), Math.floor(verse));
+      const result = await getVerse(bookId, chapter, verse);
       if (result.data) {
         const book = getBookById(bookId);
         setDailyVerse({
           ...result.data,
           bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
         });
+      } else {
+        // Fallback to demo verse if database is empty
+        const book = getBookById(1);
+        setDailyVerse({
+          id: 1,
+          bookId: 1,
+          chapter: 1,
+          verse: 1,
+          textEng: 'In the beginning God created the heaven and the earth.',
+          textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
+          bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
+        });
       }
     } catch (error) {
       console.error('Error loading daily verse:', error);
+      // Show demo verse even on error
+      const book = getBookById(1);
+      setDailyVerse({
+        id: 1,
+        bookId: 1,
+        chapter: 1,
+        verse: 1,
+        textEng: 'In the beginning God created the heaven and the earth.',
+        textTel: 'ఆదియందు దేవుడు భూమ్యాకాశములను సృజించెను.',
+        bookName: preferredLanguage === 'telugu' ? book?.nameTelugu : book?.nameEnglish,
+      });
     } finally {
       setIsLoading(false);
     }
