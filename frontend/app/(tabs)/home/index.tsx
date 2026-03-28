@@ -10,12 +10,12 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import { DARK, FONT, SPACE, RADIUS, SHADOW } from '../../src/constants/theme';
-import { useAppStore } from '../../src/store/useAppStore';
-import { useBibleStore } from '../../src/store/useBibleStore';
-import { getBookById } from '../../src/data/bibleMetadata';
-import { getVerse } from '../../src/services/database/verses.queries';
-import { getDailySeed } from '../../src/utils/dateHelpers';
+import { DARK, FONT, SPACE, RADIUS, SHADOW } from '@/constants/theme';
+import { useAppStore } from '@/store/useAppStore';
+import { useBibleStore } from '@/store/useBibleStore';
+import { getBookById } from '@/data/bibleMetadata';
+import { getVerse } from '@/services/database/verses.queries';
+import { getDailySeed } from '@/utils/dateHelpers';
 import { LinearGradient } from 'expo-linear-gradient';
 
 export default function HomeScreen() {

@@ -1,4 +1,4 @@
-import { BibleBook } from '../types/bible.types';
+import { BibleBook } from '@/types/bible.types';
 
 export const BIBLE_BOOKS: BibleBook[] = [
   // OLD TESTAMENT — LAW

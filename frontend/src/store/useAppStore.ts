@@ -1,8 +1,8 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { User } from '../types/user.types';
-import { Language } from '../types/bible.types';
+import { User } from '@/types/user.types';
+import { Language } from '@/types/bible.types';
 
 interface AppState {
   // User state

@@ -11,12 +11,12 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import { DARK, FONT, SPACE, RADIUS } from '../../src/constants/theme';
-import { searchVerses } from '../../src/services/database/verses.queries';
-import { getBookById } from '../../src/data/bibleMetadata';
-import { Verse } from '../../src/types/bible.types';
-import { truncate } from '../../src/utils/textHelpers';
-import { useAppStore } from '../../src/store/useAppStore';
+import { DARK, FONT, SPACE, RADIUS } from '@/constants/theme';
+import { searchVerses } from '@/services/database/verses.queries';
+import { getBookById } from '@/data/bibleMetadata';
+import { Verse } from '@/types/bible.types';
+import { truncate } from '@/utils/textHelpers';
+import { useAppStore } from '@/store/useAppStore';
 
 export default function SearchScreen() {
   const router = useRouter();

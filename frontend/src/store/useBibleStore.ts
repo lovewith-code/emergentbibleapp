@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { FontSizeKey } from '../constants/theme';
+import { FontSizeKey } from '@/constants/theme';
 
 interface BibleState {
   currentBookId: number;

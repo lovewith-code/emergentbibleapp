@@ -1,10 +1,10 @@
 import { create } from 'zustand';
-import { Bookmark, Favorite, Highlight, ReadingHistory } from '../types/reading.types';
-import * as BookmarksQuery from '../services/database/bookmarks.queries';
-import * as FavoritesQuery from '../services/database/favorites.queries';
-import * as HighlightsQuery from '../services/database/highlights.queries';
-import * as HistoryQuery from '../services/database/history.queries';
-import { logger } from '../utils/logger';
+import { Bookmark, Favorite, Highlight, ReadingHistory } from '@/types/reading.types';
+import * as BookmarksQuery from '@/services/database/bookmarks.queries';
+import * as FavoritesQuery from '@/services/database/favorites.queries';
+import * as HighlightsQuery from '@/services/database/highlights.queries';
+import * as HistoryQuery from '@/services/database/history.queries';
+import { logger } from '@/utils/logger';
 
 interface ReadingState {
   bookmarks: Bookmark[];

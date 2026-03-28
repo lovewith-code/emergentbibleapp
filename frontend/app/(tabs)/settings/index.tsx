@@ -2,10 +2,10 @@ import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { DARK, FONT, SPACE, RADIUS } from '../../src/constants/theme';
-import { useAppStore } from '../../src/store/useAppStore';
-import { useBibleStore } from '../../src/store/useBibleStore';
-import { APP_VERSION } from '../../src/constants/config';
+import { DARK, FONT, SPACE, RADIUS } from '@/constants/theme';
+import { useAppStore } from '@/store/useAppStore';
+import { useBibleStore } from '@/store/useBibleStore';
+import { APP_VERSION } from '@/constants/config';
 
 export default function SettingsScreen() {
   const { user, isGuest, preferredLanguage, setLanguage, signOut, continueAsGuest } =
