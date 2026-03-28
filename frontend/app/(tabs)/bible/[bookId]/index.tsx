@@ -3,8 +3,8 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-nati
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { DARK, FONT, SPACE, RADIUS } from '../../../../src/constants/theme';
-import { getBookById } from '../../../../src/data/bibleMetadata';
+import { DARK, FONT, SPACE, RADIUS } from '../../../src/constants/theme';
+import { getBookById } from '../../../src/data/bibleMetadata';
 
 export default function BookDetailScreen() {
   const params = useLocalSearchParams();

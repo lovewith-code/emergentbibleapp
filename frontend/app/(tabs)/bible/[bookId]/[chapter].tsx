@@ -10,12 +10,12 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { DARK, FONT, SPACE, RADIUS, VERSE_FONT_SIZE } from '../../../../../src/constants/theme';
-import { getBookById } from '../../../../../src/data/bibleMetadata';
-import { getVersesByChapter } from '../../../../../src/services/database/verses.queries';
-import { Verse } from '../../../../../src/types/bible.types';
-import { useAppStore } from '../../../../../src/store/useAppStore';
-import { useBibleStore } from '../../../../../src/store/useBibleStore';
+import { DARK, FONT, SPACE, RADIUS, VERSE_FONT_SIZE } from '../../../../src/constants/theme';
+import { getBookById } from '../../../../src/data/bibleMetadata';
+import { getVersesByChapter } from '../../../../src/services/database/verses.queries';
+import { Verse } from '../../../../src/types/bible.types';
+import { useAppStore } from '../../../../src/store/useAppStore';
+import { useBibleStore } from '../../../../src/store/useBibleStore';
 
 export default function ChapterReaderScreen() {
   const params = useLocalSearchParams();
