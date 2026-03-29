@@ -53,9 +53,13 @@ export default function SearchScreen() {
       <TouchableOpacity
         style={styles.resultCard}
         onPress={() =>
-          router.push(
-            `/(tabs)/bible/[bookId]/[chapter]?bookId=${item.bookId}&chapter=${item.chapter}&verse=${item.verse}`
-          )
+          router.push({
+            pathname: '/(tabs)/bible/[bookId]/[chapter]',
+            params: {
+              bookId: String(item.bookId),
+              chapter: String(item.chapter),
+            },
+          })
         }
       >
         <Text style={styles.resultReference}>

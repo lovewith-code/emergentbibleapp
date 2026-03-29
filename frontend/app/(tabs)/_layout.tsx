@@ -14,6 +14,7 @@ export default function TabsLayout() {
           borderTopColor: DARK.tabBorder,
           borderTopWidth: 1,
           height: 60,
+          paddingBottom: 6,
         },
         headerStyle: {
           backgroundColor: DARK.bg,
@@ -48,6 +49,16 @@ export default function TabsLayout() {
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="search" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="bookmarks/index"
+        options={{
+          title: 'Saved',
+          headerShown: false,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="bookmark" size={size} color={color} />
           ),
         }}
       />

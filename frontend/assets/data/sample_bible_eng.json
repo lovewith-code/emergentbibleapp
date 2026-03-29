@@ -10,7 +10,7 @@
             },
             {
               "Verseid": "01001002",
-              "Verse": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+              "Verse": "And the earth was without form, and void; and darkness was upon the face of the deep."
             },
             {
               "Verseid": "01001003",
@@ -22,15 +22,15 @@
             },
             {
               "Verseid": "01001005",
-              "Verse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
+              "Verse": "And God called the light Day, and the darkness he called Night."
             },
             {
               "Verseid": "01001006",
-              "Verse": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters."
+              "Verse": "And God said, Let there be a firmament in the midst of the waters."
             },
             {
               "Verseid": "01001007",
-              "Verse": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so."
+              "Verse": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament."
             },
             {
               "Verseid": "01001008",
@@ -38,11 +38,11 @@
             },
             {
               "Verseid": "01001009",
-              "Verse": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so."
+              "Verse": "And God said, Let the waters under the heaven be gathered together unto one place."
             },
             {
               "Verseid": "01001010",
-              "Verse": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good."
+              "Verse": "And God called the dry land Earth; and the gathering together of the waters called he Seas."
             }
           ]
         },
@@ -54,19 +54,527 @@
             },
             {
               "Verseid": "01002002",
-              "Verse": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made."
+              "Verse": "And on the seventh day God ended his work which he had made."
             },
             {
               "Verseid": "01002003",
-              "Verse": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made."
+              "Verse": "And God blessed the seventh day, and sanctified it."
             },
             {
               "Verseid": "01002004",
-              "Verse": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens."
+              "Verse": "These are the generations of the heavens and of the earth when they were created."
             },
             {
               "Verseid": "01002005",
-              "Verse": "And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth."
+              "Verse": "And every plant of the field before it was in the earth, and every herb of the field before it grew."
+            },
+            {
+              "Verseid": "01002006",
+              "Verse": "But there went up a mist from the earth, and watered the whole face of the ground."
+            },
+            {
+              "Verseid": "01002007",
+              "Verse": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "01003001",
+              "Verse": "Now the serpent was more subtil than any beast of the field which the LORD God had made."
+            },
+            {
+              "Verseid": "01003002",
+              "Verse": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden."
+            },
+            {
+              "Verseid": "01003003",
+              "Verse": "But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it."
+            },
+            {
+              "Verseid": "01003004",
+              "Verse": "And the serpent said unto the woman, Ye shall not surely die."
+            },
+            {
+              "Verseid": "01003005",
+              "Verse": "For God doth know that in the day ye eat thereof, then your eyes shall be opened."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "02001001",
+              "Verse": "Now these are the names of the children of Israel, which came into Egypt."
+            },
+            {
+              "Verseid": "02001002",
+              "Verse": "Reuben, Simeon, Levi, and Judah."
+            },
+            {
+              "Verseid": "02001003",
+              "Verse": "Issachar, Zebulun, and Benjamin."
+            },
+            {
+              "Verseid": "02001004",
+              "Verse": "Dan, and Naphtali, Gad, and Asher."
+            },
+            {
+              "Verseid": "02001005",
+              "Verse": "And all the souls that came out of the loins of Jacob were seventy souls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "03001001",
+              "Verse": "And the LORD called unto Moses, and spake unto him out of the tabernacle of the congregation."
+            },
+            {
+              "Verseid": "03001002",
+              "Verse": "Speak unto the children of Israel, and say unto them."
+            },
+            {
+              "Verseid": "03001003",
+              "Verse": "If his offering be a burnt sacrifice of the herd, let him offer a male without blemish."
+            },
+            {
+              "Verseid": "03001004",
+              "Verse": "And he shall put his hand upon the head of the burnt offering; and it shall be accepted for him."
+            },
+            {
+              "Verseid": "03001005",
+              "Verse": "And he shall kill the bullock before the LORD."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "04001001",
+              "Verse": "And the LORD spake unto Moses in the wilderness of Sinai."
+            },
+            {
+              "Verseid": "04001002",
+              "Verse": "Take ye the sum of all the congregation of the children of Israel."
+            },
+            {
+              "Verseid": "04001003",
+              "Verse": "From twenty years old and upward, all that are able to go forth to war in Israel."
+            },
+            {
+              "Verseid": "04001004",
+              "Verse": "And with you there shall be a man of every tribe."
+            },
+            {
+              "Verseid": "04001005",
+              "Verse": "These are the names of the men that shall stand with you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "05001001",
+              "Verse": "These be the words which Moses spake unto all Israel on this side Jordan in the wilderness."
+            },
+            {
+              "Verseid": "05001002",
+              "Verse": "There are eleven days journey from Horeb by the way of mount Seir unto Kadeshbarnea."
+            },
+            {
+              "Verseid": "05001003",
+              "Verse": "And it came to pass in the fortieth year, in the eleventh month."
+            },
+            {
+              "Verseid": "05001004",
+              "Verse": "After he had slain Sihon the king of the Amorites."
+            },
+            {
+              "Verseid": "05001005",
+              "Verse": "On this side Jordan, in the land of Moab, began Moses to declare this law."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "06001001",
+              "Verse": "After the death of Moses the servant of the LORD it came to pass."
+            },
+            {
+              "Verseid": "06001002",
+              "Verse": "Moses my servant is dead; now therefore arise, go over this Jordan."
+            },
+            {
+              "Verseid": "06001003",
+              "Verse": "Every place that the sole of your foot shall tread upon, that have I given unto you."
+            },
+            {
+              "Verseid": "06001004",
+              "Verse": "Be strong and of a good courage."
+            },
+            {
+              "Verseid": "06001005",
+              "Verse": "Have not I commanded thee? Be strong and of a good courage; be not afraid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "07001001",
+              "Verse": "Now after the death of Joshua it came to pass."
+            },
+            {
+              "Verseid": "07001002",
+              "Verse": "And Judah said unto Simeon his brother, Come up with me into my lot."
+            },
+            {
+              "Verseid": "07001003",
+              "Verse": "And the LORD was with Judah; and he drave out the inhabitants of the mountain."
+            },
+            {
+              "Verseid": "07001004",
+              "Verse": "And Caleb said, He that smiteth Kirjathsepher, and taketh it."
+            },
+            {
+              "Verseid": "07001005",
+              "Verse": "And Othniel the son of Kenaz took it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "08001001",
+              "Verse": "Now it came to pass in the days when the judges ruled, that there was a famine in the land."
+            },
+            {
+              "Verseid": "08001002",
+              "Verse": "And a certain man of Bethlehemjudah went to sojourn in the country of Moab."
+            },
+            {
+              "Verseid": "08001003",
+              "Verse": "And the name of the man was Elimelech, and the name of his wife Naomi."
+            },
+            {
+              "Verseid": "08001004",
+              "Verse": "And they came into the country of Moab, and continued there."
+            },
+            {
+              "Verseid": "08001005",
+              "Verse": "And Mahlon and Chilion died also both of them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "09001001",
+              "Verse": "Now there was a certain man of Ramathaimzophim."
+            },
+            {
+              "Verseid": "09001002",
+              "Verse": "And he had two wives; the name of the one was Hannah."
+            },
+            {
+              "Verseid": "09001003",
+              "Verse": "And this man went up out of his city yearly to worship the LORD of hosts in Shiloh."
+            },
+            {
+              "Verseid": "09001004",
+              "Verse": "And her adversary also provoked her sore."
+            },
+            {
+              "Verseid": "09001005",
+              "Verse": "But unto Hannah he gave a worthy portion; for he loved Hannah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "10001001",
+              "Verse": "Now it came to pass after the death of Saul."
+            },
+            {
+              "Verseid": "10001002",
+              "Verse": "David enquired of the LORD, saying, Shall I go up into any of the cities of Judah?"
+            },
+            {
+              "Verseid": "10001003",
+              "Verse": "And the LORD said unto him, Go up. And David said, Whither shall I go up?"
+            },
+            {
+              "Verseid": "10001004",
+              "Verse": "So David went up thither, and his two wives also."
+            },
+            {
+              "Verseid": "10001005",
+              "Verse": "And the men of Judah came, and there they anointed David king over the house of Judah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "11001001",
+              "Verse": "Now king David was old and stricken in years."
+            },
+            {
+              "Verseid": "11001002",
+              "Verse": "His servants said unto him, Let there be sought for my lord the king a young virgin."
+            },
+            {
+              "Verseid": "11001003",
+              "Verse": "So they sought for a fair damsel throughout all the coasts of Israel."
+            },
+            {
+              "Verseid": "11001004",
+              "Verse": "And the damsel was very fair, and cherished the king."
+            },
+            {
+              "Verseid": "11001005",
+              "Verse": "And Adonijah the son of Haggith exalted himself, saying, I will be king."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "12001001",
+              "Verse": "Then Moab rebelled against Israel after the death of Ahab."
+            },
+            {
+              "Verseid": "12001002",
+              "Verse": "And Ahaziah fell down through a lattice in his upper chamber."
+            },
+            {
+              "Verseid": "12001003",
+              "Verse": "And he sent messengers to inquire of Baalzebub the god of Ekron."
+            },
+            {
+              "Verseid": "12001004",
+              "Verse": "But the angel of the LORD said to Elijah, Arise, go up to meet the messengers."
+            },
+            {
+              "Verseid": "12001005",
+              "Verse": "And Elijah answered, If I be a man of God, let fire come down from heaven."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "13001001",
+              "Verse": "Adam, Sheth, Enosh."
+            },
+            {
+              "Verseid": "13001002",
+              "Verse": "Kenan, Mahalaleel, Jered."
+            },
+            {
+              "Verseid": "13001003",
+              "Verse": "Henoch, Methuselah, Lamech."
+            },
+            {
+              "Verseid": "13001004",
+              "Verse": "Noah, Shem, Ham, and Japheth."
+            },
+            {
+              "Verseid": "13001005",
+              "Verse": "The sons of Japheth; Gomer, and Magog, and Madai, and Javan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "14001001",
+              "Verse": "And Solomon the son of David was strengthened in his kingdom."
+            },
+            {
+              "Verseid": "14001002",
+              "Verse": "Then Solomon spake unto all Israel, to the captains of thousands."
+            },
+            {
+              "Verseid": "14001003",
+              "Verse": "So Solomon, and all the congregation with him, went to the high place."
+            },
+            {
+              "Verseid": "14001004",
+              "Verse": "In that night did God appear unto Solomon."
+            },
+            {
+              "Verseid": "14001005",
+              "Verse": "And Solomon said unto God, Thou hast shewed great mercy unto David my father."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "15001001",
+              "Verse": "Now in the first year of Cyrus king of Persia."
+            },
+            {
+              "Verseid": "15001002",
+              "Verse": "The LORD stirred up the spirit of Cyrus king of Persia."
+            },
+            {
+              "Verseid": "15001003",
+              "Verse": "Thus saith Cyrus king of Persia, The LORD God of heaven hath given me all the kingdoms."
+            },
+            {
+              "Verseid": "15001004",
+              "Verse": "Who is there among you of all his people? His God be with him."
+            },
+            {
+              "Verseid": "15001005",
+              "Verse": "Then rose up the chief of the fathers of Judah and Benjamin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "16001001",
+              "Verse": "The words of Nehemiah the son of Hachaliah."
+            },
+            {
+              "Verseid": "16001002",
+              "Verse": "And it came to pass, when I heard these words, I sat down and wept."
+            },
+            {
+              "Verseid": "16001003",
+              "Verse": "And said, I beseech thee, O LORD God of heaven."
+            },
+            {
+              "Verseid": "16001004",
+              "Verse": "The great and terrible God, that keepeth covenant and mercy."
+            },
+            {
+              "Verseid": "16001005",
+              "Verse": "Let thine ear now be attentive, and thine eyes open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "17001001",
+              "Verse": "Now it came to pass in the days of Ahasuerus."
+            },
+            {
+              "Verseid": "17001002",
+              "Verse": "That in those days, when the king Ahasuerus sat on the throne."
+            },
+            {
+              "Verseid": "17001003",
+              "Verse": "In the third year of his reign, he made a feast unto all his princes."
+            },
+            {
+              "Verseid": "17001004",
+              "Verse": "Also Vashti the queen made a feast for the women."
+            },
+            {
+              "Verseid": "17001005",
+              "Verse": "On the seventh day, the heart of the king was merry with wine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "18001001",
+              "Verse": "There was a man in the land of Uz, whose name was Job."
+            },
+            {
+              "Verseid": "18001002",
+              "Verse": "And that man was perfect and upright, and one that feared God."
+            },
+            {
+              "Verseid": "18001003",
+              "Verse": "His substance also was seven thousand sheep, and three thousand camels."
+            },
+            {
+              "Verseid": "18001004",
+              "Verse": "And his sons went and feasted in their houses."
+            },
+            {
+              "Verseid": "18001005",
+              "Verse": "And Job sent and sanctified them, and rose up early in the morning."
             }
           ]
         }
@@ -78,7 +586,7 @@
           "Verse": [
             {
               "Verseid": "19001001",
-              "Verse": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful."
+              "Verse": "Blessed is the man that walketh not in the counsel of the ungodly."
             },
             {
               "Verseid": "19001002",
@@ -86,7 +594,7 @@
             },
             {
               "Verseid": "19001003",
-              "Verse": "And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper."
+              "Verse": "And he shall be like a tree planted by the rivers of water."
             },
             {
               "Verseid": "19001004",
@@ -94,7 +602,7 @@
             },
             {
               "Verseid": "19001005",
-              "Verse": "Therefore the ungodly shall not stand in the judgment, nor sinners in the congregation of the righteous."
+              "Verse": "Therefore the ungodly shall not stand in the judgment."
             },
             {
               "Verseid": "19001006",
@@ -105,28 +613,1428 @@
         {
           "Verse": [
             {
-              "Verseid": "19023001",
+              "Verseid": "19002001",
               "Verse": "The LORD is my shepherd; I shall not want."
             },
             {
-              "Verseid": "19023002",
+              "Verseid": "19002002",
               "Verse": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
             },
             {
-              "Verseid": "19023003",
+              "Verseid": "19002003",
               "Verse": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
             },
             {
-              "Verseid": "19023004",
-              "Verse": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+              "Verseid": "19002004",
+              "Verse": "Yea, though I walk through the valley of the shadow of death, I will fear no evil."
             },
             {
-              "Verseid": "19023005",
-              "Verse": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over."
+              "Verseid": "19002005",
+              "Verse": "Thou preparest a table before me in the presence of mine enemies."
             },
             {
-              "Verseid": "19023006",
-              "Verse": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever."
+              "Verseid": "19002006",
+              "Verse": "Surely goodness and mercy shall follow me all the days of my life."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "19003001",
+              "Verse": "The LORD is my light and my salvation; whom shall I fear?"
+            },
+            {
+              "Verseid": "19003002",
+              "Verse": "When the wicked came upon me to eat up my flesh, my enemies and my foes, they stumbled."
+            },
+            {
+              "Verseid": "19003003",
+              "Verse": "Though an host should encamp against me, my heart shall not fear."
+            },
+            {
+              "Verseid": "19003004",
+              "Verse": "One thing have I desired of the LORD, that will I seek after."
+            },
+            {
+              "Verseid": "19003005",
+              "Verse": "For in the time of trouble he shall hide me in his pavilion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "20001001",
+              "Verse": "The proverbs of Solomon the son of David, king of Israel."
+            },
+            {
+              "Verseid": "20001002",
+              "Verse": "To know wisdom and instruction; to perceive the words of understanding."
+            },
+            {
+              "Verseid": "20001003",
+              "Verse": "To receive the instruction of wisdom, justice, and judgment, and equity."
+            },
+            {
+              "Verseid": "20001004",
+              "Verse": "To give subtilty to the simple, to the young man knowledge and discretion."
+            },
+            {
+              "Verseid": "20001005",
+              "Verse": "The fear of the LORD is the beginning of knowledge."
+            },
+            {
+              "Verseid": "20001006",
+              "Verse": "My son, hear the instruction of thy father, and forsake not the law of thy mother."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "21001001",
+              "Verse": "The words of the Preacher, the son of David, king in Jerusalem."
+            },
+            {
+              "Verseid": "21001002",
+              "Verse": "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity."
+            },
+            {
+              "Verseid": "21001003",
+              "Verse": "What profit hath a man of all his labour which he taketh under the sun?"
+            },
+            {
+              "Verseid": "21001004",
+              "Verse": "One generation passeth away, and another generation cometh."
+            },
+            {
+              "Verseid": "21001005",
+              "Verse": "The sun also ariseth, and the sun goeth down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "22001001",
+              "Verse": "The song of songs, which is Solomon's."
+            },
+            {
+              "Verseid": "22001002",
+              "Verse": "Let him kiss me with the kisses of his mouth."
+            },
+            {
+              "Verseid": "22001003",
+              "Verse": "Draw me, we will run after thee."
+            },
+            {
+              "Verseid": "22001004",
+              "Verse": "I am black, but comely, O ye daughters of Jerusalem."
+            },
+            {
+              "Verseid": "22001005",
+              "Verse": "Look not upon me, because I am black."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "23001001",
+              "Verse": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem."
+            },
+            {
+              "Verseid": "23001002",
+              "Verse": "Hear, O heavens, and give ear, O earth: for the LORD hath spoken."
+            },
+            {
+              "Verseid": "23001003",
+              "Verse": "I have nourished and brought up children, and they have rebelled against me."
+            },
+            {
+              "Verseid": "23001004",
+              "Verse": "The ox knoweth his owner, and the donkey his master's crib."
+            },
+            {
+              "Verseid": "23001005",
+              "Verse": "Ah sinful nation, a people laden with iniquity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "24001001",
+              "Verse": "The words of Jeremiah the son of Hilkiah."
+            },
+            {
+              "Verseid": "24001002",
+              "Verse": "Then the word of the LORD came unto me, saying."
+            },
+            {
+              "Verseid": "24001003",
+              "Verse": "Before I formed thee in the belly I knew thee."
+            },
+            {
+              "Verseid": "24001004",
+              "Verse": "Then said I, Ah, Lord GOD! behold, I cannot speak: for I am a child."
+            },
+            {
+              "Verseid": "24001005",
+              "Verse": "But the LORD said unto me, Say not, I am a child."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "25001001",
+              "Verse": "How doth the city sit solitary, that was full of people!"
+            },
+            {
+              "Verseid": "25001002",
+              "Verse": "She weepeth sore in the night, and her tears are on her cheeks."
+            },
+            {
+              "Verseid": "25001003",
+              "Verse": "Judah is gone into captivity because of affliction."
+            },
+            {
+              "Verseid": "25001004",
+              "Verse": "The ways of Zion do mourn, because none come to the solemn feasts."
+            },
+            {
+              "Verseid": "25001005",
+              "Verse": "Her adversaries are the chief, her enemies prosper."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "26001001",
+              "Verse": "Now it came to pass in the thirtieth year."
+            },
+            {
+              "Verseid": "26001002",
+              "Verse": "The heavens were opened, and I saw visions of God."
+            },
+            {
+              "Verseid": "26001003",
+              "Verse": "The word of the LORD came expressly unto Ezekiel the priest."
+            },
+            {
+              "Verseid": "26001004",
+              "Verse": "And I looked, and behold, a whirlwind came out of the north."
+            },
+            {
+              "Verseid": "26001005",
+              "Verse": "Also out of the midst thereof came the likeness of four living creatures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "27001001",
+              "Verse": "In the third year of the reign of Jehoiakim king of Judah."
+            },
+            {
+              "Verseid": "27001002",
+              "Verse": "And the Lord gave Jehoiakim king of Judah into his hand."
+            },
+            {
+              "Verseid": "27001003",
+              "Verse": "And the king spake unto Ashpenaz the master of his eunuchs."
+            },
+            {
+              "Verseid": "27001004",
+              "Verse": "Children in whom was no blemish, but well favoured."
+            },
+            {
+              "Verseid": "27001005",
+              "Verse": "Daniel purposed in his heart that he would not defile himself."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "28001001",
+              "Verse": "The word of the LORD that came unto Hosea."
+            },
+            {
+              "Verseid": "28001002",
+              "Verse": "Go, take unto thee a wife."
+            },
+            {
+              "Verseid": "28001003",
+              "Verse": "So he went and took Gomer the daughter of Diblaim."
+            },
+            {
+              "Verseid": "28001004",
+              "Verse": "And the LORD said unto him, Call his name Jezreel."
+            },
+            {
+              "Verseid": "28001005",
+              "Verse": "Yet the number of the children of Israel shall be as the sand of the sea."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "29001001",
+              "Verse": "The word of the LORD that came to Joel the son of Pethuel."
+            },
+            {
+              "Verseid": "29001002",
+              "Verse": "Hear this, ye old men, and give ear."
+            },
+            {
+              "Verseid": "29001003",
+              "Verse": "That which the palmerworm hath left hath the locust eaten."
+            },
+            {
+              "Verseid": "29001004",
+              "Verse": "Awake, ye drunkards, and weep."
+            },
+            {
+              "Verseid": "29001005",
+              "Verse": "For a nation is come up upon my land."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "30001001",
+              "Verse": "The words of Amos, who was among the herdmen of Tekoa."
+            },
+            {
+              "Verseid": "30001002",
+              "Verse": "And he said, The LORD will roar from Zion."
+            },
+            {
+              "Verseid": "30001003",
+              "Verse": "For three transgressions of Damascus, and for four."
+            },
+            {
+              "Verseid": "30001004",
+              "Verse": "Thus saith the LORD; For three transgressions of Gaza."
+            },
+            {
+              "Verseid": "30001005",
+              "Verse": "But I will send a fire on the wall of Gaza."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "31001001",
+              "Verse": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom."
+            },
+            {
+              "Verseid": "31001002",
+              "Verse": "Behold, I have made thee small among the heathen."
+            },
+            {
+              "Verseid": "31001003",
+              "Verse": "The pride of thine heart hath deceived thee."
+            },
+            {
+              "Verseid": "31001004",
+              "Verse": "Though thou exalt thyself as the eagle."
+            },
+            {
+              "Verseid": "31001005",
+              "Verse": "Shall I not in that day destroy the wise men out of Edom?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "32001001",
+              "Verse": "Now the word of the LORD came unto Jonah the son of Amittai."
+            },
+            {
+              "Verseid": "32001002",
+              "Verse": "Arise, go to Nineveh, that great city."
+            },
+            {
+              "Verseid": "32001003",
+              "Verse": "But Jonah rose up to flee unto Tarshish."
+            },
+            {
+              "Verseid": "32001004",
+              "Verse": "But the LORD sent out a great wind into the sea."
+            },
+            {
+              "Verseid": "32001005",
+              "Verse": "Then the mariners were afraid, and cried every man unto his god."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "33001001",
+              "Verse": "The word of the LORD that came to Micah."
+            },
+            {
+              "Verseid": "33001002",
+              "Verse": "Hear, all ye people; hearken, O earth."
+            },
+            {
+              "Verseid": "33001003",
+              "Verse": "For, behold, the LORD cometh forth out of his place."
+            },
+            {
+              "Verseid": "33001004",
+              "Verse": "And the mountains shall be molten under him."
+            },
+            {
+              "Verseid": "33001005",
+              "Verse": "For the transgression of Jacob is all this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "34001001",
+              "Verse": "The burden of Nineveh. The book of the vision of Nahum."
+            },
+            {
+              "Verseid": "34001002",
+              "Verse": "God is jealous, and the LORD revengeth."
+            },
+            {
+              "Verseid": "34001003",
+              "Verse": "The LORD is slow to anger, and great in power."
+            },
+            {
+              "Verseid": "34001004",
+              "Verse": "He rebuketh the sea, and maketh it dry."
+            },
+            {
+              "Verseid": "34001005",
+              "Verse": "The mountains quake at him, and the hills melt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "35001001",
+              "Verse": "The burden which Habakkuk the prophet did see."
+            },
+            {
+              "Verseid": "35001002",
+              "Verse": "O LORD, how long shall I cry, and thou wilt not hear!"
+            },
+            {
+              "Verseid": "35001003",
+              "Verse": "Why dost thou shew me iniquity, and cause me to behold grievance?"
+            },
+            {
+              "Verseid": "35001004",
+              "Verse": "Therefore the law is slacked, and judgment doth never go forth."
+            },
+            {
+              "Verseid": "35001005",
+              "Verse": "Behold ye among the heathen, and regard, and wonder marvellously."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "36001001",
+              "Verse": "The word of the LORD which came unto Zephaniah."
+            },
+            {
+              "Verseid": "36001002",
+              "Verse": "I will utterly consume all things from off the land."
+            },
+            {
+              "Verseid": "36001003",
+              "Verse": "I will consume man and beast."
+            },
+            {
+              "Verseid": "36001004",
+              "Verse": "I will also stretch out mine hand upon Judah."
+            },
+            {
+              "Verseid": "36001005",
+              "Verse": "And them that worship the host of heaven upon the housetops."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "37001001",
+              "Verse": "In the second year of Darius the king."
+            },
+            {
+              "Verseid": "37001002",
+              "Verse": "Thus speaketh the LORD of hosts."
+            },
+            {
+              "Verseid": "37001003",
+              "Verse": "Is it time for you to dwell in your cieled houses?"
+            },
+            {
+              "Verseid": "37001004",
+              "Verse": "Ye have sown much, and bring in little."
+            },
+            {
+              "Verseid": "37001005",
+              "Verse": "Thus saith the LORD of hosts; Consider your ways."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "38001001",
+              "Verse": "In the eighth month, in the second year of Darius."
+            },
+            {
+              "Verseid": "38001002",
+              "Verse": "The LORD hath been sore displeased with your fathers."
+            },
+            {
+              "Verseid": "38001003",
+              "Verse": "Therefore say thou unto them, Thus saith the LORD of hosts."
+            },
+            {
+              "Verseid": "38001004",
+              "Verse": "Turn ye unto me, saith the LORD of hosts."
+            },
+            {
+              "Verseid": "38001005",
+              "Verse": "Be ye not as your fathers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "39001001",
+              "Verse": "The burden of the word of the LORD to Israel by Malachi."
+            },
+            {
+              "Verseid": "39001002",
+              "Verse": "I have loved you, saith the LORD."
+            },
+            {
+              "Verseid": "39001003",
+              "Verse": "Was not Esau Jacob's brother? saith the LORD."
+            },
+            {
+              "Verseid": "39001004",
+              "Verse": "Yet I loved Jacob, and I hated Esau."
+            },
+            {
+              "Verseid": "39001005",
+              "Verse": "And I laid his mountains and his heritage waste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "40001001",
+              "Verse": "The book of the generation of Jesus Christ, the son of David, the son of Abraham."
+            },
+            {
+              "Verseid": "40001002",
+              "Verse": "Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren."
+            },
+            {
+              "Verseid": "40001003",
+              "Verse": "And Judas begat Phares and Zara of Thamar."
+            },
+            {
+              "Verseid": "40001004",
+              "Verse": "And Aram begat Aminadab; and Aminadab begat Naasson."
+            },
+            {
+              "Verseid": "40001005",
+              "Verse": "And Salmon begat Booz of Rachab; and Booz begat Obed of Ruth."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "40002001",
+              "Verse": "Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king."
+            },
+            {
+              "Verseid": "40002002",
+              "Verse": "Where is he that is born King of the Jews?"
+            },
+            {
+              "Verseid": "40002003",
+              "Verse": "When Herod the king had heard these things, he was troubled."
+            },
+            {
+              "Verseid": "40002004",
+              "Verse": "And when he had gathered all the chief priests and scribes of the people together."
+            },
+            {
+              "Verseid": "40002005",
+              "Verse": "And thou Bethlehem, in the land of Juda, art not the least among the princes of Juda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "41001001",
+              "Verse": "The beginning of the gospel of Jesus Christ, the Son of God."
+            },
+            {
+              "Verseid": "41001002",
+              "Verse": "As it is written in the prophets, Behold, I send my messenger before thy face."
+            },
+            {
+              "Verseid": "41001003",
+              "Verse": "The voice of one crying in the wilderness, Prepare ye the way of the Lord."
+            },
+            {
+              "Verseid": "41001004",
+              "Verse": "John did baptize in the wilderness, and preach the baptism of repentance."
+            },
+            {
+              "Verseid": "41001005",
+              "Verse": "And there went out unto him all the land of Judaea."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "42001001",
+              "Verse": "Forasmuch as many have taken in hand to set forth in order a declaration."
+            },
+            {
+              "Verseid": "42001002",
+              "Verse": "It seemed good to me also to write unto thee in order."
+            },
+            {
+              "Verseid": "42001003",
+              "Verse": "There was in the days of Herod, the king of Judaea, a certain priest named Zacharias."
+            },
+            {
+              "Verseid": "42001004",
+              "Verse": "And they were both righteous before God."
+            },
+            {
+              "Verseid": "42001005",
+              "Verse": "And they had no child, because that Elisabeth was barren."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "43001001",
+              "Verse": "In the beginning was the Word, and the Word was with God, and the Word was God."
+            },
+            {
+              "Verseid": "43001002",
+              "Verse": "The same was in the beginning with God."
+            },
+            {
+              "Verseid": "43001003",
+              "Verse": "All things were made by him; and without him was not any thing made that was made."
+            },
+            {
+              "Verseid": "43001004",
+              "Verse": "In him was life; and the life was the light of men."
+            },
+            {
+              "Verseid": "43001005",
+              "Verse": "And the light shineth in darkness; and the darkness comprehended it not."
+            },
+            {
+              "Verseid": "43001006",
+              "Verse": "There was a man sent from God, whose name was John."
+            },
+            {
+              "Verseid": "43001007",
+              "Verse": "The same came for a witness, to bear witness of the Light."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "44001001",
+              "Verse": "The former treatise have I made, O Theophilus, of all that Jesus began both to do and teach."
+            },
+            {
+              "Verseid": "44001002",
+              "Verse": "Until the day in which he was taken up."
+            },
+            {
+              "Verseid": "44001003",
+              "Verse": "To whom also he shewed himself alive after his passion."
+            },
+            {
+              "Verseid": "44001004",
+              "Verse": "Being assembled together with them, commanded them that they should not depart from Jerusalem."
+            },
+            {
+              "Verseid": "44001005",
+              "Verse": "For John truly baptized with water; but ye shall be baptized with the Holy Ghost."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "45001001",
+              "Verse": "Paul, a servant of Jesus Christ, called to be an apostle."
+            },
+            {
+              "Verseid": "45001002",
+              "Verse": "Which he had promised afore by his prophets in the holy scriptures."
+            },
+            {
+              "Verseid": "45001003",
+              "Verse": "Concerning his Son Jesus Christ our Lord."
+            },
+            {
+              "Verseid": "45001004",
+              "Verse": "By whom we have received grace and apostleship."
+            },
+            {
+              "Verseid": "45001005",
+              "Verse": "Among whom are ye also the called of Jesus Christ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "46001001",
+              "Verse": "Paul, called to be an apostle of Jesus Christ through the will of God."
+            },
+            {
+              "Verseid": "46001002",
+              "Verse": "Unto the church of God which is at Corinth."
+            },
+            {
+              "Verseid": "46001003",
+              "Verse": "Grace be unto you, and peace, from God our Father."
+            },
+            {
+              "Verseid": "46001004",
+              "Verse": "I thank my God always on your behalf."
+            },
+            {
+              "Verseid": "46001005",
+              "Verse": "That in every thing ye are enriched by him."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "47001001",
+              "Verse": "Paul, an apostle of Jesus Christ by the will of God."
+            },
+            {
+              "Verseid": "47001002",
+              "Verse": "Grace be to you and peace from God our Father."
+            },
+            {
+              "Verseid": "47001003",
+              "Verse": "Blessed be God, even the Father of our Lord Jesus Christ."
+            },
+            {
+              "Verseid": "47001004",
+              "Verse": "Who comforteth us in all our tribulation."
+            },
+            {
+              "Verseid": "47001005",
+              "Verse": "For as the sufferings of Christ abound in us."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "48001001",
+              "Verse": "Paul, an apostle, not of men, neither by man, but by Jesus Christ."
+            },
+            {
+              "Verseid": "48001002",
+              "Verse": "Grace be to you and peace from God the Father."
+            },
+            {
+              "Verseid": "48001003",
+              "Verse": "I marvel that ye are so soon removed."
+            },
+            {
+              "Verseid": "48001004",
+              "Verse": "But though we, or an angel from heaven, preach any other gospel."
+            },
+            {
+              "Verseid": "48001005",
+              "Verse": "For do I now persuade men, or God?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "49001001",
+              "Verse": "Paul, an apostle of Jesus Christ by the will of God."
+            },
+            {
+              "Verseid": "49001002",
+              "Verse": "Grace be to you, and peace, from God our Father."
+            },
+            {
+              "Verseid": "49001003",
+              "Verse": "Blessed be the God and Father of our Lord Jesus Christ."
+            },
+            {
+              "Verseid": "49001004",
+              "Verse": "Who hath blessed us with all spiritual blessings in heavenly places."
+            },
+            {
+              "Verseid": "49001005",
+              "Verse": "According as he hath chosen us in him before the foundation of the world."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "50001001",
+              "Verse": "Paul and Timotheus, the servants of Jesus Christ."
+            },
+            {
+              "Verseid": "50001002",
+              "Verse": "Grace be unto you, and peace, from God our Father."
+            },
+            {
+              "Verseid": "50001003",
+              "Verse": "I thank my God upon every remembrance of you."
+            },
+            {
+              "Verseid": "50001004",
+              "Verse": "Always in every prayer of mine for you all."
+            },
+            {
+              "Verseid": "50001005",
+              "Verse": "For your fellowship in the gospel from the first day until now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "51001001",
+              "Verse": "Paul, an apostle of Jesus Christ by the will of God."
+            },
+            {
+              "Verseid": "51001002",
+              "Verse": "Grace be unto you, and peace."
+            },
+            {
+              "Verseid": "51001003",
+              "Verse": "We give thanks to God and the Father of our Lord Jesus Christ."
+            },
+            {
+              "Verseid": "51001004",
+              "Verse": "Since we heard of your faith in Christ Jesus."
+            },
+            {
+              "Verseid": "51001005",
+              "Verse": "For the hope which is laid up for you in heaven."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "52001001",
+              "Verse": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians."
+            },
+            {
+              "Verseid": "52001002",
+              "Verse": "Grace be unto you, and peace."
+            },
+            {
+              "Verseid": "52001003",
+              "Verse": "We give thanks to God always for you all."
+            },
+            {
+              "Verseid": "52001004",
+              "Verse": "Remembering without ceasing your work of faith."
+            },
+            {
+              "Verseid": "52001005",
+              "Verse": "For our gospel came not unto you in word only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "53001001",
+              "Verse": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians."
+            },
+            {
+              "Verseid": "53001002",
+              "Verse": "Grace unto you, and peace."
+            },
+            {
+              "Verseid": "53001003",
+              "Verse": "We are bound to thank God always for you."
+            },
+            {
+              "Verseid": "53001004",
+              "Verse": "So that we ourselves glory in you in the churches of God."
+            },
+            {
+              "Verseid": "53001005",
+              "Verse": "Which is a manifest token of the righteous judgment of God."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "54001001",
+              "Verse": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour."
+            },
+            {
+              "Verseid": "54001002",
+              "Verse": "Unto Timothy, my own son in the faith."
+            },
+            {
+              "Verseid": "54001003",
+              "Verse": "As I besought thee to abide still at Ephesus."
+            },
+            {
+              "Verseid": "54001004",
+              "Verse": "Neither give heed to fables and endless genealogies."
+            },
+            {
+              "Verseid": "54001005",
+              "Verse": "Now the end of the commandment is charity out of a pure heart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "55001001",
+              "Verse": "Paul, an apostle of Jesus Christ by the will of God."
+            },
+            {
+              "Verseid": "55001002",
+              "Verse": "To Timothy, my dearly beloved son."
+            },
+            {
+              "Verseid": "55001003",
+              "Verse": "I thank God, whom I serve from my forefathers with pure conscience."
+            },
+            {
+              "Verseid": "55001004",
+              "Verse": "Greatly desiring to see thee, being mindful of thy tears."
+            },
+            {
+              "Verseid": "55001005",
+              "Verse": "When I call to remembrance the unfeigned faith that is in thee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "56001001",
+              "Verse": "Paul, a servant of God, and an apostle of Jesus Christ."
+            },
+            {
+              "Verseid": "56001002",
+              "Verse": "In hope of eternal life, which God promised before the world began."
+            },
+            {
+              "Verseid": "56001003",
+              "Verse": "To Titus, mine own son after the common faith."
+            },
+            {
+              "Verseid": "56001004",
+              "Verse": "For this cause left I thee in Crete."
+            },
+            {
+              "Verseid": "56001005",
+              "Verse": "If any be blameless, the husband of one wife."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "57001001",
+              "Verse": "Paul, a prisoner of Jesus Christ, and Timothy our brother."
+            },
+            {
+              "Verseid": "57001002",
+              "Verse": "Unto Philemon our dearly beloved, and fellowlabourer."
+            },
+            {
+              "Verseid": "57001003",
+              "Verse": "Grace to you, and peace, from God our Father."
+            },
+            {
+              "Verseid": "57001004",
+              "Verse": "I thank my God, making mention of thee always in my prayers."
+            },
+            {
+              "Verseid": "57001005",
+              "Verse": "Hearing of thy love and faith."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "58001001",
+              "Verse": "God, who at sundry times and in divers manners spake in time past unto the fathers."
+            },
+            {
+              "Verseid": "58001002",
+              "Verse": "Hath in these last days spoken unto us by his Son."
+            },
+            {
+              "Verseid": "58001003",
+              "Verse": "Whom he hath appointed heir of all things."
+            },
+            {
+              "Verseid": "58001004",
+              "Verse": "Who being the brightness of his glory, and the express image of his person."
+            },
+            {
+              "Verseid": "58001005",
+              "Verse": "Being made so much better than the angels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "59001001",
+              "Verse": "James, a servant of God and of the Lord Jesus Christ."
+            },
+            {
+              "Verseid": "59001002",
+              "Verse": "My brethren, count it all joy when ye fall into divers temptations."
+            },
+            {
+              "Verseid": "59001003",
+              "Verse": "Knowing this, that the trying of your faith worketh patience."
+            },
+            {
+              "Verseid": "59001004",
+              "Verse": "But let patience have her perfect work."
+            },
+            {
+              "Verseid": "59001005",
+              "Verse": "If any of you lack wisdom, let him ask of God."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "60001001",
+              "Verse": "Peter, an apostle of Jesus Christ."
+            },
+            {
+              "Verseid": "60001002",
+              "Verse": "Elect according to the foreknowledge of God the Father."
+            },
+            {
+              "Verseid": "60001003",
+              "Verse": "Grace unto you, and peace, be multiplied."
+            },
+            {
+              "Verseid": "60001004",
+              "Verse": "Blessed be the God and Father of our Lord Jesus Christ."
+            },
+            {
+              "Verseid": "60001005",
+              "Verse": "Which according to his abundant mercy hath begotten us again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "61001001",
+              "Verse": "Simon Peter, a servant and an apostle of Jesus Christ."
+            },
+            {
+              "Verseid": "61001002",
+              "Verse": "Grace and peace be multiplied unto you."
+            },
+            {
+              "Verseid": "61001003",
+              "Verse": "According as his divine power hath given unto us all things."
+            },
+            {
+              "Verseid": "61001004",
+              "Verse": "Whereby are given unto us exceeding great and precious promises."
+            },
+            {
+              "Verseid": "61001005",
+              "Verse": "And beside this, giving all diligence, add to your faith virtue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "62001001",
+              "Verse": "That which was from the beginning, which we have heard."
+            },
+            {
+              "Verseid": "62001002",
+              "Verse": "That which we have seen and heard declare we unto you."
+            },
+            {
+              "Verseid": "62001003",
+              "Verse": "And these things write we unto you, that your joy may be full."
+            },
+            {
+              "Verseid": "62001004",
+              "Verse": "This then is the message which we have heard of him."
+            },
+            {
+              "Verseid": "62001005",
+              "Verse": "God is light, and in him is no darkness at all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "63001001",
+              "Verse": "The elder unto the elect lady and her children."
+            },
+            {
+              "Verseid": "63001002",
+              "Verse": "For the truth's sake, which dwelleth in us."
+            },
+            {
+              "Verseid": "63001003",
+              "Verse": "Grace be with you, mercy, and peace."
+            },
+            {
+              "Verseid": "63001004",
+              "Verse": "I rejoiced greatly that I found of thy children walking in truth."
+            },
+            {
+              "Verseid": "63001005",
+              "Verse": "And now I beseech thee, lady, not as though I wrote a new commandment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "64001001",
+              "Verse": "The elder unto the wellbeloved Gaius, whom I love in the truth."
+            },
+            {
+              "Verseid": "64001002",
+              "Verse": "Beloved, I wish above all things that thou mayest prosper."
+            },
+            {
+              "Verseid": "64001003",
+              "Verse": "For I rejoiced greatly, when the brethren came and testified of the truth."
+            },
+            {
+              "Verseid": "64001004",
+              "Verse": "I have no greater joy than to hear that my children walk in truth."
+            },
+            {
+              "Verseid": "64001005",
+              "Verse": "Beloved, thou doest faithfully whatsoever thou doest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "65001001",
+              "Verse": "Jude, the servant of Jesus Christ, and brother of James."
+            },
+            {
+              "Verseid": "65001002",
+              "Verse": "Mercy unto you, and peace, and love, be multiplied."
+            },
+            {
+              "Verseid": "65001003",
+              "Verse": "Beloved, when I gave all diligence to write unto you of the common salvation."
+            },
+            {
+              "Verseid": "65001004",
+              "Verse": "For there are certain men crept in unawares."
+            },
+            {
+              "Verseid": "65001005",
+              "Verse": "I will therefore put you in remembrance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter": [
+        {
+          "Verse": [
+            {
+              "Verseid": "66001001",
+              "Verse": "The Revelation of Jesus Christ, which God gave unto him."
+            },
+            {
+              "Verseid": "66001002",
+              "Verse": "Blessed is he that readeth, and they that hear the words of this prophecy."
+            },
+            {
+              "Verseid": "66001003",
+              "Verse": "John to the seven churches which are in Asia."
+            },
+            {
+              "Verseid": "66001004",
+              "Verse": "Grace be unto you, and peace, from him which is, and which was, and which is to come."
+            },
+            {
+              "Verseid": "66001005",
+              "Verse": "And from Jesus Christ, who is the faithful witness."
+            }
+          ]
+        },
+        {
+          "Verse": [
+            {
+              "Verseid": "66002001",
+              "Verse": "I was in the Spirit on the Lord's day, and heard behind me a great voice."
+            },
+            {
+              "Verseid": "66002002",
+              "Verse": "Saying, I am Alpha and Omega, the first and the last."
+            },
+            {
+              "Verseid": "66002003",
+              "Verse": "And I turned to see the voice that spake with me."
+            },
+            {
+              "Verseid": "66002004",
+              "Verse": "And being turned, I saw seven golden candlesticks."
+            },
+            {
+              "Verseid": "66002005",
+              "Verse": "And in the midst of the seven candlesticks one like unto the Son of man."
             }
           ]
         }
